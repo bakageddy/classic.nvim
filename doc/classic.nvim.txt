@@ -1,0 +1,80 @@
+*classic.nvim*   A base16 dark colorscheme for Neovim
+
+CONTENTS                                                      *classic-contents*
+
+  1. Introduction ............................. |classic-introduction|
+  2. Requirements ............................. |classic-requirements|
+  3. Usage .................................... |classic-usage|
+  4. Configuration ............................ |classic-configuration|
+  5. Palette .................................. |classic-palette|
+
+================================================================================
+1. INTRODUCTION                                           *classic-introduction*
+
+classic.nvim is a Neovim colorscheme written in Lua. It ships with the
+color palettes from the base16 project:
+
+  * base16-classic-dark
+  * base16-tomorrow-night
+
+================================================================================
+2. REQUIREMENTS                                           *classic-requirements*
+
+Neovim 0.8.0 or newer.
+
+================================================================================
+3. USAGE                                                         *classic-usage*
+
+>
+  require("classic").setup()
+  vim.cmd.colorscheme("classic")
+<
+
+To use the Tomorrow Night variant:
+
+>
+  require("classic").setup({ variant = "tomorrow" })
+  vim.cmd.colorscheme("classic")
+<
+
+================================================================================
+4. CONFIGURATION                                         *classic-configuration*
+
+Default options:
+
+>
+  require("classic").setup({
+    variant = "classic",          -- "classic" | "tomorrow"
+    terminal_colors = true,       -- set terminal ANSI colors
+    undercurl = true,
+    underline = true,
+    bold = true,
+    italic = {
+      strings = true,
+      emphasis = true,
+      comments = true,
+      operators = false,
+      folds = true,
+    },
+    strikethrough = true,
+    inverse = true,
+    invert_selection = false,
+    invert_signs = false,
+    invert_tabline = false,
+    palette_overrides = {},
+    overrides = {},
+    dim_inactive = false,
+    transparent_mode = false,
+  })
+<
+
+*palette_overrides* lets you replace individual palette colors. *overrides*
+lets you replace or extend highlight groups.
+
+================================================================================
+5. PALETTE                                                       *classic-palette*
+
+Two variants are available: `classic` and `tomorrow`. The exact hexcodes are
+documented in the README.md file included with this plugin.
+
+ vim:tw=78:ts=2:et:ft=help:
