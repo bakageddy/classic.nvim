@@ -84,9 +84,9 @@ Classic.palettes = {
     fg2 = "#E0E0E0",
     fg0 = "#F5F5F5",
     -- base16 gui08..gui0F
-    red = "#AC4142",
+    red = "#D64949",
     orange = "#D28445",
-    yellow = "#F4BF75",
+    yellow = "#C9A86C",
     green = "#90A959",
     aqua = "#75B5AA",
     blue = "#6A9FB5",
@@ -104,9 +104,9 @@ Classic.palettes = {
     fg2 = "#e0e0e0",
     fg0 = "#ffffff",
     -- base16 gui08..gui0F
-    red = "#cc6666",
+    red = "#E06C6C",
     orange = "#de935f",
-    yellow = "#f0c674",
+    yellow = "#BFB087",
     green = "#b5bd68",
     aqua = "#8abeb7",
     blue = "#81a2be",

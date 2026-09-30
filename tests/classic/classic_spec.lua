@@ -17,7 +17,7 @@ describe("classic", function()
   it("supports the tomorrow variant", function()
     classic.setup({ variant = "tomorrow" })
     assert.are.same(classic.config.variant, "tomorrow")
-    assert.are.same(classic.palettes.tomorrow.red, "#cc6666")
+    assert.are.same(classic.palettes.tomorrow.red, "#E06C6C")
   end)
 
   it("should override a highlight color", function()

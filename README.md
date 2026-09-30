@@ -18,7 +18,7 @@ This theme uses [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbo
 
 ```lua
 {
-  "<your-github-user>/classic.nvim",
+  "bakageddy/classic.nvim",
   priority = 1000,
   config = true,
 }
@@ -27,13 +27,13 @@ This theme uses [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbo
 ### packer
 
 ```lua
-use { "<your-github-user>/classic.nvim" }
+use { "bakageddy/classic.nvim" }
 ```
 
 ### vim-plug
 
 ```vim
-Plug '<your-github-user>/classic.nvim'
+Plug 'bakageddy/classic.nvim'
 ```
 
 ## Usage
@@ -98,50 +98,6 @@ require("classic").setup({
   },
 })
 ```
-
-## Default palettes
-
-### `classic`
-
-| role    | color   |
-| ------- | ------- |
-| bg0     | #151515 |
-| bg1     | #202020 |
-| bg2     | #303030 |
-| bg3     | #505050 |
-| fg4     | #B0B0B0 |
-| fg1     | #D0D0D0 |
-| fg2     | #E0E0E0 |
-| fg0     | #F5F5F5 |
-| red     | #AC4142 |
-| orange  | #D28445 |
-| yellow  | #F4BF75 |
-| green   | #90A959 |
-| aqua    | #75B5AA |
-| blue    | #6A9FB5 |
-| purple  | #AA759F |
-| brown   | #8F5536 |
-
-### `tomorrow`
-
-| role    | color   |
-| ------- | ------- |
-| bg0     | #1d1f21 |
-| bg1     | #282a2e |
-| bg2     | #373b41 |
-| bg3     | #969896 |
-| fg4     | #b4b7b4 |
-| fg1     | #c5c8c6 |
-| fg2     | #e0e0e0 |
-| fg0     | #ffffff |
-| red     | #cc6666 |
-| orange  | #de935f |
-| yellow  | #f0c674 |
-| green   | #b5bd68 |
-| aqua    | #8abeb7 |
-| blue    | #81a2be |
-| purple  | #b294bb |
-| brown   | #a3685a |
 
 ## License
 
